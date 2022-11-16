@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hasan.order_application">
+    package="com.freedom.order_application">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -13,24 +13,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <service
-            android:name=".ListenOrder"
+            android:name="com.freedom.order_application.ListenOrder"
             android:enabled="true"
             android:exported="true"></service>
 
-        <activity android:name=".All_Order_Food_List" />
-        <activity android:name=".Add_Product" />
-        <activity android:name=".Order_show" />
-        <activity android:name=".List_All_Order" />
-        <activity android:name=".Admin_Side" />
-        <activity android:name=".All_Cart" />
+        <activity android:name="com.freedom.order_application.All_Order_Food_List" />
+        <activity android:name="com.freedom.order_application.Add_Product" />
+        <activity android:name="com.freedom.order_application.Order_show" />
+        <activity android:name="com.freedom.order_application.List_All_Order" />
+        <activity android:name="com.freedom.order_application.Admin_Side" />
+        <activity android:name="com.freedom.order_application.All_Cart" />
         <activity
-            android:name=".Cart"
+            android:name="com.freedom.order_application.Cart"
             android:screenOrientation="portrait" />
-        <activity android:name=".FoodDetails" />
-        <activity android:name=".FoodList" />
-        <activity android:name=".Admin_Login" />
-        <activity android:name=".Home" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.freedom.order_application.FoodDetails" />
+        <activity android:name="com.freedom.order_application.FoodList" />
+        <activity android:name="com.freedom.order_application.Admin_Login" />
+        <activity android:name="com.freedom.order_application.Home" />
+        <activity android:name="com.freedom.order_application.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -40,7 +40,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.hasan.order_application.fileprovider"
+            android:authorities="com.freedom.order_application.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

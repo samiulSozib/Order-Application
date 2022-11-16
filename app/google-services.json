@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "47738976885",
-    "firebase_url": "https://hasan-vi-project.firebaseio.com",
-    "project_id": "hasan-vi-project",
-    "storage_bucket": "hasan-vi-project.appspot.com"
+    "project_number": "821514093968",
+    "firebase_url": "https://hasan-vai-application.firebaseio.com",
+    "project_id": "hasan-vai-application",
+    "storage_bucket": "hasan-vai-application.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:47738976885:android:ea3f4bfa16ea8c029e163c",
+        "mobilesdk_app_id": "1:821514093968:android:b63327dff9c2731f459f15",
         "android_client_info": {
-          "package_name": "com.hasan.order_application"
+          "package_name": "com.freedom.order_application"
         }
       },
       "oauth_client": [
         {
-          "client_id": "47738976885-8qken0aq2fn71hd33898autg5eap25kc.apps.googleusercontent.com",
+          "client_id": "821514093968-vm3e702ahkf25hp5naj78d83c32e2ok7.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.hasan.order_application",
+            "package_name": "com.freedom.order_application",
             "certificate_hash": "054b55930944fd55c74d21276791b24b3199222d"
           }
         },
         {
-          "client_id": "47738976885-0d2nv2aoval9p53jrmvf6d17iflhsh8v.apps.googleusercontent.com",
+          "client_id": "821514093968-f2ofaiftrn1941ql3p2qnol0pkki2shi.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAkHARC5XN-rq2CR1K9lghidv-UnYn-I9g"
+          "current_key": "AIzaSyDCYmhv6AP76YpmorhdC-bhpQbszMwXazQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "47738976885-0d2nv2aoval9p53jrmvf6d17iflhsh8v.apps.googleusercontent.com",
+              "client_id": "821514093968-f2ofaiftrn1941ql3p2qnol0pkki2shi.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -24,11 +24,34 @@
         android:layout_height="wrap_content"/>
 
 
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
     <ImageView
         android:id="@+id/cart_item_count"
         android:layout_width="25dp"
+        android:layout_marginRight="10dp"
         android:layout_gravity="center"
         android:layout_height="25dp"/>
+
+    <TextView
+        android:id="@+id/cart_item_type"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+
+    <TextView
+        android:id="@+id/cart_item_free"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

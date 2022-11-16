@@ -15,18 +15,43 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
-    <TextView
-        android:id="@+id/samiul_quantity"
-        android:text="Quantity"
-        android:textColor="#000"
-        android:textSize="18sp"
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/samiul_quantity"
+            android:text="Quantity"
+            android:layout_marginRight="10dp"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/samiul_quantiy_type"
+            android:text="Quantity Type"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
 
     <TextView
         android:id="@+id/samiul_price"
         android:text="Price"
         android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/samiul_free"
+        android:text="Free"
+        android:textColor="#09E212"
         android:textSize="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
